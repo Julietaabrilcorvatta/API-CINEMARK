@@ -1,53 +1,28 @@
-📌 Descripción
+# 🎬 QA Manual - Cinemark Hoyts
 
-Proyecto final de QA Manual - API Testing, realizado como práctica de testing sobre la aplicación web de Cinemark Hoyts.
+📌 **Descripción**  
+Proyecto de testing manual realizado sobre la aplicación web de [Cinemark Hoyts](https://www.cinemarkhoyts.com.ar/).  
+El objetivo principal fue evaluar la funcionalidad, usabilidad y estabilidad de los flujos críticos de la plataforma mediante la ejecución de casos de prueba enfocados en el registro de usuarios, inicio de sesión, recuperación de contraseña y disponibilidad de películas, cubriendo tanto escenarios positivos como negativos.
 
-El objetivo del proyecto fue realizar diferentes casos de prueba para validar el comportamiento de funcionalidades relacionadas con el registro de usuarios, inicio de sesión, recuperación de contraseña y consulta de películas, utilizando diferentes tipos de datos y escenarios.
+🧪 **Casos de prueba**  
+Se diseñaron y ejecutaron un total de 10 casos de prueba (con prioridades Alta y Media), abarcando:
+* Validación de campos de registro (válidos, vacíos, obligatorios y con datos ya existentes).
+* Validación del flujo de inicio de sesión (Login con datos correctos, incorrectos, vacíos y de usuarios inexistentes).
+* Validación de disponibilidad de películas en cartelera.
+* Validación del campo de recuperación de contraseña.
 
-🧪 Casos de prueba
+🛠️ **Herramientas utilizadas**  
+* **Cinemark Hoyts:** Aplicación web analizada como objeto de prueba.
+* **QA Manual / Testing Funcional y de UI:** Diseño, estructuración y ejecución de casos de prueba.
+* **Herramientas de captura y reporte:** Generación de métricas, gráficos de estado y documentación de defectos (visuales y de componentes).
 
-Se realizaron 10 casos de prueba, incluyendo:
+📊 **Resumen de Resultados**  
+* **Casos Ejecutados:** 10
+* **Casos Exitosos (Paso):** 7
+* **Casos con Fallas (Falla):** 3 (relacionados con defectos de componentes en flujos de registro/login y defectos visuales).
 
-Validación de campos de registro.
-Validación del inicio de sesión.
-Validación de disponibilidad de películas.
-Recuperación de contraseña.
-Validación de campos obligatorios.
-Validación con datos no válidos.
-Validación de campos vacíos.
-Validación con usuarios/datos inexistentes.
-Validación de registro con datos ya registrados.
+📄 **Documentación**  
+En este repositorio se encuentra disponible el documento PDF con el reporte completo de la ejecución:
+* `REPORTE DE PRUEBAS CORVATTA.pdf`
 
-Cada caso incluye los pasos realizados, el método HTTP utilizado y el código de respuesta obtenido.
-
-🛠️ Herramientas utilizadas
-Postman - Para realizar y validar las solicitudes HTTP.
-Cinemark Hoyts - Aplicación web utilizada como objeto de prueba.
-QA Manual / API Testing - Para el diseño y ejecución de los casos de prueba.
-🌐 Aplicación bajo prueba
-
-Cinemark Hoyts
-
-📋 Métodos HTTP
-
-Durante las pruebas se utilizaron solicitudes HTTP GET y POST, dependiendo del caso de prueba.
-
-Se registraron diferentes códigos de respuesta HTTP, entre ellos:
-
-200 OK
-204 No Content
-302 Found
-101 Switching Protocols
-📄 Documentación
-
-En este repositorio se encuentra el PDF con la documentación completa de los casos de prueba realizados:
-
-API CINEMARK CORVATTA.pdf
-
-La documentación contiene los pasos, datos utilizados y resultados obtenidos durante las pruebas.
-
-👩‍💻 Autora
-
-Julieta Corvatta
-
-Proyecto realizado para Coderhouse - QA Manual / API Testing.
+La documentación detalla la matriz de pruebas, el registro de defectos por tipo y criticidad, gráficos estadísticos y las conclusiones del análisis realizado entre el 27 y el 29 de abril de 2024.
